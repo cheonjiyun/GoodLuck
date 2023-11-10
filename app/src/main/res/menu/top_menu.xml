@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/lastLuckButton"
+        android:contentDescription="@string/last_luck"
+        android:icon="@drawable/baseline_list_24"
+        android:tooltipText="@string/last_luck"
+        android:title="@string/last_luck"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/settingButton"
+        android:contentDescription="@string/setting"
+        android:icon="@drawable/baseline_settings_24"
+        android:tooltipText="@string/setting"
+        android:title="@string/setting"
+        app:showAsAction="always"
+        />
+
+
+
+</menu>

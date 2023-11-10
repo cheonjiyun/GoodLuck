@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GoodLuck</string>
+    <string name="card1">card 1</string>
+    <string name="card2">card 2</string>
+    <string name="card3">card 3</string>
+    <string name="last_luck">last luck text</string>
+    <string name="setting">setting</string>
+    <string name="back">back</string>
+</resources>

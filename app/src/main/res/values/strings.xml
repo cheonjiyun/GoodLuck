@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">GoodLuck</string>
+    <string name="app_name">기운내세</string>
+    <string name="card1">첫번째 카드</string>
+    <string name="card2">두번째 카드</string>
+    <string name="card3">세번째 카드</string>
+    <string name="last_luck">지난 운세</string>
+    <string name="setting">설정</string>
+    <string name="back">뒤로가기</string>
 </resources>
