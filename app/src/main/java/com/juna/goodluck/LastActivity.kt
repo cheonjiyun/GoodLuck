@@ -2,6 +2,7 @@ package com.juna.goodluck
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.TextView
@@ -13,17 +14,24 @@ class LastActivity : AppCompatActivity() {
 
         /* 상단바 */
         setSupportActionBar(findViewById(R.id.toolbar))
-        getSupportActionBar()!!.setTitle("")
+        var actionBar = getSupportActionBar()!!
 
-        findViewById<ImageView>(R.id.toolbar_back).setOnClickListener {
-            finish()
+        actionBar.apply {
+            actionBar!!.setTitle(R.string.last_luck)
+            actionBar!!.setDisplayHomeAsUpEnabled(true)
+            actionBar!!.setHomeAsUpIndicator(R.drawable.baseline_arrow_back_24)
+
         }
 
-        findViewById<TextView>(R.id.current_title).setText(R.string.last_luck)
+    }
 
-
-
-
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            android.R.id.home -> {
+                finish()
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 
 }

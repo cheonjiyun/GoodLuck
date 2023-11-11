@@ -3,7 +3,7 @@
     <style name="title_font">
         <item name="android:fontFamily">@font/font_title</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:textSize">20dp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/background</item>
     </style>
 </resources>
